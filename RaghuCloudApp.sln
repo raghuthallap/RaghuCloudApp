@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaghuCloudApp", "RaghuCloudApp\RaghuCloudApp.csproj", "{7754C232-FB0F-4308-B0CB-8EE36A1813DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7754C232-FB0F-4308-B0CB-8EE36A1813DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7754C232-FB0F-4308-B0CB-8EE36A1813DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7754C232-FB0F-4308-B0CB-8EE36A1813DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7754C232-FB0F-4308-B0CB-8EE36A1813DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {712FF661-BF65-4D62-9FF8-BC52354F0476}
+	EndGlobalSection
+EndGlobal
