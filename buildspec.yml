@@ -25,6 +25,8 @@ phases:
     commands:
       - echo Publishing project...
       - dotnet publish -c Release -o publish
+      - cp appspec.yml publish/
+      - cp -r scripts publish/
       - echo Build completed successfully
 
 artifacts:
