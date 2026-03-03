@@ -1,0 +1,33 @@
+version: 0.2
+
+env:
+  variables:
+    PROJECT_NAME: "RaghuCloudApp"
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0
+    commands:
+      - echo Installing dependencies...
+
+  pre_build:
+    commands:
+      - echo Restoring NuGet packages...
+      - dotnet restore
+
+  build:
+    commands:
+      - echo Building project...
+      - dotnet build --configuration Release --no-restore
+
+  post_build:
+    commands:
+      - echo Publishing project...
+      - dotnet publish -c Release -o publish
+      - echo Build completed successfully
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: publish
