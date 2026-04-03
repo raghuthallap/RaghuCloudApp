@@ -9,7 +9,8 @@ namespace RaghuCloudApp.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Healthy");
+            Console.WriteLine("🔥 RaghuCloudApp Deployment SUCCESS - V2");
+            return Ok("Healthy-V2");
         }
 
         [HttpGet("info")]
